@@ -84,13 +84,13 @@ The installation scripts can install and configure a firewall for you. The scrip
 
 To test the script, we use [Vagrant](https://www.vagrantup.com). With Vagrant, you can quickly get a fresh machine up and running to test the script.
 
-If you want to test the script on all supported installations in one go, just run the following.
+If you want to test the script on all supported installations in one go, just run the following command.
 
 ```bash
 vagrant up
 ```
 
-If you only want to test a specific distribution, you can run the following.
+If you only want to test a specific distribution, you can run the following command.
 
 ```bash
 vagrant up <name>
