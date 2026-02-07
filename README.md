@@ -107,6 +107,8 @@ Replace name with one of the following (supported installations).
 - `almalinux_9`
 - `rockylinux_8`
 - `rockylinux_9`
+-  `freebsd_13`
+-  `freebsd_14`
 
 Then you can use `vagrant ssh <name of machine>` to SSH into the box. The project directory will be mounted in `/vagrant` so you can quickly modify the script locally and then test the changes by running the script from `/vagrant/installers/panel.sh` and `/vagrant/installers/wings.sh` respectively.
 
